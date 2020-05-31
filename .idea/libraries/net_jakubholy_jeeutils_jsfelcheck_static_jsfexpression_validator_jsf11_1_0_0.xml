@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="net.jakubholy.jeeutils.jsfelcheck:static-jsfexpression-validator-jsf11:1.0.0" type="repository">
+    <properties maven-id="net.jakubholy.jeeutils.jsfelcheck:static-jsfexpression-validator-jsf11:1.0.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/jakubholy/jeeutils/jsfelcheck/static-jsfexpression-validator-jsf11/1.0.0/static-jsfexpression-validator-jsf11-1.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/jakubholy/jeeutils/jsfelcheck/static-jsfexpression-validator-core/1.0.0/static-jsfexpression-validator-core-1.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.4/commons-io-1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/jasper/6.0.29/jasper-6.0.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/juli/6.0.29/juli-6.0.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/jsp-api/6.0.29/jsp-api-6.0.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/annotations-api/6.0.29/annotations-api-6.0.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/jasper-jdt/6.0.29/jasper-jdt-6.0.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.6/commons-beanutils-1.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant/1.8.2/ant-1.8.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/faces/jsf-api/1.1_02/jsf-api-1.1_02.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/jakubholy/jeeutils/jsfelcheck/sun-el-customized-jsf11/1.0.0/sun-el-customized-jsf11-1.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.5/commons-digester-1.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0/commons-logging-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/2.1/commons-collections-2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/jasper-el/6.0.29/jasper-el-6.0.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/el-api/6.0.29/el-api-6.0.29.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.8.5/mockito-core-1.8.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/1.0/objenesis-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

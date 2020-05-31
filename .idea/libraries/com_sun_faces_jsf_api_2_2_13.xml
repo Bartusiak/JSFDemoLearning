@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.sun.faces:jsf-api:2.2.13" type="repository">
+    <properties maven-id="com.sun.faces:jsf-api:2.2.13" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.2.13/jsf-api-2.2.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
