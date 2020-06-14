@@ -1,16 +1,23 @@
-import javax.enterprise.context.SessionScoped;
+import javax.annotation.ManagedBean;
 import javax.inject.Named;
 import java.io.Serializable;
 
 @Named("student")
-@SessionScoped
+@ManagedBean
 public class Student implements Serializable {
 
     private String name;
     private String surname;
+    private String email;
 
     public Student(){
 
+    }
+
+    public Student(String name, String surname, String email){
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
     }
 
     public String getName() {
@@ -27,5 +34,13 @@ public class Student implements Serializable {
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

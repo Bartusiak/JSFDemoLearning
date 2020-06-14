@@ -1,0 +1,25 @@
+.demo-table{
+    border-collapse: collapse;
+    border-bottom: 1px solid red;
+}
+.demo-table-header{
+    border-bottom: 1px solid gray;
+    background: bisque;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.demo-table-odd-row{
+    border-top: 1px solid blue;
+    background: none;
+    text-align: center;
+    font-family: Arial;
+    font-weight: normal;
+}
+.demo-table-even-row{
+    border-top: 1px solid green;
+    background: none;
+    text-align: center;
+    font-family: Arial;
+    font-weight: normal;
+}

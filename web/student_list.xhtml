@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core">
+
+    <h:head>
+        <title>Student List</title>
+        <h:outputStylesheet library="css" name="student_table.css"/>
+    </h:head>
+
+    <h:body>
+        <h1>Student List</h1>
+        <hr></hr>
+        <br></br>
+
+        <ul>
+            <ui:repeat var="tempStudent" value="#{studentDataUtil.students}">
+                <li>#{tempStudent.name} #{tempStudent.surname}</li>
+            </ui:repeat>
+        </ul>
+
+        <h:dataTable value="#{studentDataUtil.students}" var="tempStudent"
+                     styleClass="demo-table"
+                     rowClasses="demo-table-odd-row,demo-table-even-row"
+                     headerClass="demo-table-header">
+
+            <h:column>
+                <f:facet name="header">Name</f:facet>
+
+                #{tempStudent.name}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Surname</f:facet>
+                #{tempStudent.surname}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Email</f:facet>
+                #{tempStudent.email}
+            </h:column>
+
+        </h:dataTable>
+
+    </h:body>
+
+</html>
